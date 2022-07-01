@@ -24,6 +24,7 @@ const lowerCaseKeysAll = (
     const nk = key.toLowerCase();
 
     if (isObject(obj[key])) {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       acc[nk] = lowerCaseKeysAll(obj[key]);
     } else {
