@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/lower-case-keys",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Creates a new object from the specified object, where all the keys are in lowercase.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
